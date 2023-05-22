@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App {
+  width: 800px;
+}
+
+.post {
+  margin-top: 20px;
+  padding: 20px;
+  border: 2px solid darkseagreen;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.post__btns {
+  display: flex;
+}
+
+.page__wrapper {
+  margin: 25px auto;
+  display: flex;
+  gap: 5px;
+}
+
+/* .page {
+  padding: 5px 15px;
+  color: teal;
+  font-size: 14px;
+  background: transparent;
+  border: 1px solid teal;
+  cursor: pointer;
+} */
+.page__current {
+  margin-top: 1px;
+  border: 2px solid orange !important;
+  font-weight: bold;
+}
+
+.navbar {
+  height: 50px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  background: lightgray;
+}
+
+.navbar__links {
+  margin-left: auto;
+}
